@@ -1,0 +1,29 @@
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <div id="loginDiv">
+            <select name="lang" id="langSet">
+                <option value="en">en</option>
+                <option value="es">es</option>
+            </select>
+            <input type="text" placeholder="Enter FirstName..." id="firstName" name="firstName"/>
+            <input type="text" placeholder="Enter LastName..." id="lastName" name="lastName"/>
+            <input type="button" value="Login" id="Login" />
+        </div>
+        <h1 id="greeting"></h1>
+        <div id="greetingDiv">
+            <input type="text" placeholder="Enter Language..." id="lang" name="lang"/>
+            <input type="text" placeholder="Enter Greeting..." id="msg" name="msg"/>
+            <input type="checkbox" value="isFormal" id="formal" name="formal"/>
+            <span>Is Formal Greeting?</span>
+            <input type="button" value="Add Greeting" id="AddGretting" />
+        </div>
+        <div id="inFormalGrts"></div>
+        <div id="formalGrts"></div>
+        <script src="jquery-1.11.2.js"></script>
+        <script src="Greetr.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
